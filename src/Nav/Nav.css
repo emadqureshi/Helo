@@ -1,0 +1,33 @@
+.nav {
+    height: 100vh;
+    width: 10%;
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #91c0ac, #9ec9f2, #612558);
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+  }
+  
+  .nav-link img {
+    width: 35%;
+    margin-top: 5vh;
+  }
+  .nav-link.logout {
+    margin-top: 60vh;
+    margin-bottom: 10vh;
+  }
+  .action-navs {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 40%;
+  }
+  .profile-pic {
+    width: 60%;
+  }

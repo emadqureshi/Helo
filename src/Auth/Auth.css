@@ -1,0 +1,57 @@
+.Auth {
+    border: 0.5px solid #403d39;
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4vh 0;
+    margin: 1vh 0;
+    align-items: center;
+    background: linear-gradient(97deg, #91c0ac, #9ec9f2, #612558);
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: white;
+  }
+  .auth-logo {
+    height: 150px;
+    width: 150px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .input-box {
+    display: flex;
+    line-height: 16px;
+    font-size: 16px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .input-box p {
+    /* margin-right: 10vw; */
+    width: 10%;
+  }
+  .input-box input {
+    width: 30%;
+  }
+  .login-register-btn {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .login-register-btn button {
+    background: #403d39;
+    padding: 1vh 1vw;
+    color: white;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
+    border: none;
+    /* border: none; */
+  }
+  post-container button {
+    color: black !important;
+  }
+  button + button {
+    border: 10px solid salmon;
+  }
